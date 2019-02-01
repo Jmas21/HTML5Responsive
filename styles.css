@@ -26,6 +26,14 @@ ul{
     color: white;
 }
 
+.dark{
+    padding: 15px;
+    background: #222222;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* Header */
 header{
     background: #222222;
@@ -110,6 +118,20 @@ header a:hover{
 }
 #boxes .box img{
     width: 90px;
+}
+/* Sidebar */
+aside#sidebar{
+    float: right;
+    width: 32%;
+    margin-top: 10px;
+}
+
+/* Main-col*/
+article#main-col{
+    float: left;
+    width: 65%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 footer{
     padding: 20px;
