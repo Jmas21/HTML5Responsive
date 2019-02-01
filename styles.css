@@ -1,0 +1,58 @@
+body{
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5; spaces between lines */
+    font: 1.2em/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/* Global */
+.container{ /* class */
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header{
+    background: #222222;
+    color: #ffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: turquoise 3px solid;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+header li{
+    float: left;
+    display: inline;
+    padding:  0 1em 0 1em; /* Top Right Bottom Left */
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 1em;
+}
+header .highlight, header .current a{
+    color:#F18F01;
+    font-weight: bold;
+}
+header a:hover{
+    color: #FFFFFF;
+    font-weight: bold;
+}
